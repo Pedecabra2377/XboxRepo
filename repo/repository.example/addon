@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.XboxRepo-master" name="XboxRepo" version="1.0" provider-name="Pedecabra2377">
-    <extension point="xbmc.addon.repository" name="Example Repository">
+    <extension point="xbmc.addon.repository" name="XboxRepo">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Pedecabra2377/XboxRepo/repo/repository.example/addon.xml</info>
+            <checksum>https://raw.githubusercontent.com/Pedecabra2377/XboxRepo/repo/repository.example/addon.xml</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Pedecabra2377/XboxRepo/repo/repository.example/addon.xml</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>REPO_NAME_HERE</summary>
-        <description>DESCRIPTION OF YOUR REPO HERE</description>
+        <summary>XboxRepo</summary>
+        <description>Download from Store.</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
